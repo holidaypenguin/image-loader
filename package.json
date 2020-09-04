@@ -1,0 +1,17 @@
+{
+  "name": "image-loader-progress",
+  "version": "1.0.0",
+  "description": "图片加载进度监控",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+  ],
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/holidaypenguin/image-loader-progress.git"
+  },
+  "author": "holidaypenguin",
+  "license": "MIT"
+}
