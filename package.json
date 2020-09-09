@@ -1,17 +1,28 @@
 {
   "name": "image-loader-progress",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "图片加载进度监控",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [
-  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
   "dependencies": {
+    "@babel/polyfill": "^7.11.5"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/holidaypenguin/image-loader-progress.git"
   },
   "author": "holidaypenguin",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-external-helpers": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "@rollup/plugin-babel": "^5.2.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "rollup": "^2.26.11"
+  }
 }
